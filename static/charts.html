@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="Chart.js"></script>
+    <script src="../html/data.js"></script>
+    <script src="charts-code.js"></script>
+    <style>
+#myChart {
+}
+#accountSelectorForm {
+    width: 200px;
+    vertical-align: top;
+    display: inline-block;
+}
+#accountSelectorForm label {
+    display: block;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+<canvas id="myChart" width="800" height="400"></canvas>
+<form id="accountSelectorForm">
+    <label>
+        <input id="checkAll" type="checkbox" name="checkAll">
+        All/None
+    </label>
+</form>
+</body>
+</html>

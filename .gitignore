@@ -17,3 +17,9 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 cabal.project.local
+TAGS
+
+html/ledger.js
+html/data.js
+html/header.html
+html/index.html
