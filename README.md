@@ -6,6 +6,8 @@ It currently includes personal income tax (Einkommensteuer), corporate tax (Kör
 ## Usage
 
 ```
+stack build  #only once to install dependencies
+
 stack runghc -- -isrc src/main
 ```
 
