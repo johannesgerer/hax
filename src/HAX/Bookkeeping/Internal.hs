@@ -43,6 +43,7 @@ data FullAccountName = FAN
                        }
                  deriving (Eq, Ord,Show, Generic)
 
+-- | Used in `checkTransactionalAcountSymmetry`
 swapFAN :: FullAccountName -> FullAccountName
 swapFAN (FAN a b) = FAN b a
 
